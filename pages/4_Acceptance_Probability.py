@@ -39,5 +39,5 @@ if job_id:
             prob = predict_acceptance(skill_match, experience)
 
             st.success(
-                f"Probability that Recruiter will Give Offer to {name}: {prob:.2f}"
+                f"Probability that Recruiter will Give Offer to {candidate_name}: {prob:.2f}"
             )
