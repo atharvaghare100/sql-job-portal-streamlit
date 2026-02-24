@@ -35,9 +35,9 @@ if job_id:
         experience = selected["experience"]
 
         # Step 3: Predict
-        if st.button("Predict Acceptance Probability"):
+        if st.button("Predict Offer Probability"):
             prob = predict_acceptance(skill_match, experience)
 
             st.success(
-                f"Acceptance Probability for {candidate_name}: {prob:.2f}"
+                f"Probability that Recruiter will Give Offer to {name}: {prob:.2f}"
             )
