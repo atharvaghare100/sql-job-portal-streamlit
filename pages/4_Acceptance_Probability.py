@@ -4,7 +4,7 @@ from db import engine
 from queries import ACCEPTANCE_QUERY
 from ml_model import predict_acceptance
 
-st.title("📈 Offer Acceptance Probability")
+st.title("📈 Predict Offer Probability")
 
 # Step 1: Select Job
 job_id = st.number_input("Select Job ID", min_value=1)
